@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <shape
+            android:innerRadiusRatio="2.5"
+            android:shape="ring"
+            android:thicknessRatio="25.0" >
+            <gradient
+                android:centerColor="@color/gray"
+                android:endColor="@color/gray"
+                android:startColor="@color/gray"
+                android:type="sweep" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <shape
+            android:innerRadiusRatio="2.5"
+            android:shape="ring"
+            android:thicknessRatio="25.0" >
+            <gradient
+                android:centerColor="@color/green"
+                android:endColor="@color/green"
+                android:startColor="@color/green"
+                android:type="sweep" />
+        </shape>
+    </item>
+</selector>
